@@ -18,7 +18,7 @@ The `utils_construct_dataset` script extracts features and constructs the datase
 
 ## Lyrics Moral Predictions from Audio
 
-- The `moral-foundations-predictions.ipynb` notebook is used to predict moral foundations based on the extracted audio features.
+- The `audio-mft.ipynb` notebook is used to predict moral foundations based on the extracted audio features.
 
 ## Contributors
 
