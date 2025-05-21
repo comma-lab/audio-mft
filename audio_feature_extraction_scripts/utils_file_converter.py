@@ -1,13 +1,13 @@
 import os
 import glob
 
-input_directory = "/Users/benjaminheyderman/Documents/QM_Final_Project_Research/Track-Preview-Scrape/final/MoralAnnotations/*/"
+input_directory = "../datasets/en200/*/"
 extension = "webm"
 
 # Get a list of all .webm files in the input directory
 webm_files = glob.glob(os.path.join(input_directory, f"*.{extension}"))
 
-sonic_annotator_path = "/Users/benjaminheyderman/Downloads/sonic-annotator-1.6-macos/_sonic-annotator"
+sonic_annotator_path = "../sonic-annotator-1.6-macos/_sonic-annotator"
 
 # Loop over each file in the list
 for input_file in webm_files:

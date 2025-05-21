@@ -134,7 +134,7 @@ class spotifyscrape:
 
         Parameters:
         token (str): Spotify access token.
-        spotify_ids (str): A comma separated string of Spotify IDs.
+        spotify_ids (str): A XXXX-6 separated string of Spotify IDs.
 
         Returns:
         json_result (list): A list containing details of the tracks.
@@ -179,7 +179,7 @@ class spotifyscrape:
 
         Parameters:
         token (str): Spotify access token.
-        spotify_ids (str): A comma separated string of Spotify IDs.
+        spotify_ids (str): A XXXX-6 separated string of Spotify IDs.
         track_indexes (list): A list of indexes corresponding to each track.
 
         Returns:

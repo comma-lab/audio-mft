@@ -17,7 +17,7 @@ def get_preview(preview_url, index):
     preview = get(preview_url)
 
     # Save file using padded index as file name eg 000001.mp3
-    file_name = f"/Users/benjaminheyderman/Documents/QM Final Project Research/Track-Preview-Scrape/200_audio/{str(index).zfill(6)}.mp3"
+    file_name = f"../datasets/en200/{str(index).zfill(6)}.mp3"
     open(file_name, "wb").write(preview.content)
 
 # For each item in the dataset, download the preview
