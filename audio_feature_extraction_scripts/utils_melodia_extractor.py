@@ -3,9 +3,9 @@
 import os
 import glob
 # Path to the folder containing the audio files you want to analyse
-path = r"/Users/benjaminheyderman/Documents/QM_Final_Project_Research/Track-Preview-Scrape/final/MoralAnnotations/en_200/*.mp3"
+path = r"../datasets/en_200/*.mp3"
 file_paths = glob.glob(path)
-sonic_annotator_path = "/Users/benjaminheyderman/Downloads/sonic-annotator-1.6-macos/_sonic-annotator"
+sonic_annotator_path = "../sonic-annotator-1.6-macos/_sonic-annotator"
 for file_path in file_paths:
     # Run Vamp plugin on each file
     # Saves the melodia information in the same folder as the audio file

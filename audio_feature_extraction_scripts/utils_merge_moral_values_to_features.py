@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 
-dataset_path = '/Users/benjaminheyderman/Documents/QM_Final_Project_Research/Track-Preview-Scrape/final/MoralAnnotations/dataset_en200.csv'
-metadata_path = '/Users/benjaminheyderman/Documents/QM_Final_Project_Research/Track-Preview-Scrape/final/MoralAnnotations/en_200-ids.csv'
+dataset_path = '../datasets/dataset_en200.csv'
+metadata_path = '../datasets/en_200-ids.csv'
 
 # Load the datasets
 dataset = pd.read_csv(dataset_path)
@@ -32,4 +32,4 @@ merged_df.rename(columns={
 }, inplace=True)
 
 # Save the result to a new CSV file
-merged_df.to_csv(f"/Users/benjaminheyderman/Documents/QM_Final_Project_Research/Track-Preview-Scrape/final/MoralAnnotations/m_{os.path.basename(dataset_path)}", index=False)
+merged_df.to_csv(f"../datasets/dataset_en200_merged.csv", index=False)
