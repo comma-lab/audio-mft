@@ -1,5 +1,5 @@
 # Overview
-This repository contains data and code used in the paper "_Predicting Moral Values in Lyrics Through Audio_" submitted to the 2025 Content-Based Multimedia Indexing (CBMI) conference.
+This repository contains data and code used in the paper "_Predicting Moral Values in Lyrics Through Audio_" presented at the 2025 Content-Based Multimedia Indexing (CBMI) conference.
 
 ## Human-Annotated Lyrics
 
